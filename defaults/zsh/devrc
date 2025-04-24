@@ -1,0 +1,7 @@
+export SIDEKIQ_CONCURRENCY=40
+
+DISABLE_AUTO_TITLE="true"
+# function set_terminal_title() {
+function stt() {
+  echo -en "\e]2;$@\a"
+}
